@@ -1,10 +1,10 @@
 # greedy-peering
 Code for simulations done as part of the paper "Stability of P2P Networks Under Greedy Peering", SIROCCO'24 
 
-# all data is stored under the 'data' directory (~3GBs)
+All data is stored under the 'data' directory (~3GBs).
 
 The simulations begin with an initial graph topology (generally a random graph) with $n$ nodes, each making $d$ outgoing connections and 
-accepting $d_in$ incoming connections ($d_in =n$ same as uncapped). In each round each node drops $k$ (generally set to 1) of its 
+accepting $d_{in}$ incoming connections ($d_{in} =n$ same as uncapped). In each round each node drops $k$ (generally set to 1) of its 
 worst-performing peers and replaces them with $k$ new random peers. Performance is based on avarage distance to some $m$ set of miners. 
 
 The are two models of the simulation. The primary model used in the paper is that all nodes drop their worst edges first, then in a random 
