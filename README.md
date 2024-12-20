@@ -1,5 +1,5 @@
 # greedy-peering
-Code for simulations done as part of the paper "Stability of P2P Networks Under Greedy Peering", SIROCCO'24 
+Code for simulations done as part of the paper "Stability of P2P Networks Under Greedy Peering", SIROCCO'24 [best paper award]
 
 All data is stored under the 'data' directory (~3GBs).
 
